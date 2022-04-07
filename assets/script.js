@@ -1,8 +1,13 @@
-localStorage.getItem
-var nineOclock = document.querySelector(".time-slot")
+localStorage.getItem("nineOclock");
+var nineOclock = document.querySelector(".time-slot");
+var btn = document.querySelector("#add")
 
-element.addEventListener("click", nineTimeSlot);
-
-function nineTimeSlot() {
-    localStorage.setItem()
+btn.addEventListener("click", nineTimeSlot) {
+    function nineTimeSlot() {
+        localStorage.setItem("nineOclock")
+    }
 }
+
+// function nineTimeSlot() {
+//     localStorage.setItem("nineOclock")
+// }
