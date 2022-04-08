@@ -1,8 +1,8 @@
 // link HTML to JavaScript
 // link time to CSS for color change
 
-var gradDate = moment().format("dddd, MMM Do");
-$("#time-block").text(gradDate);
+var month = moment().format("dddd, MMM Do");
+$("#time-block").text(month);
 
 
 //9
@@ -24,10 +24,8 @@ btn9.addEventListener("click", nineTimeSlot);
 
 function nineTimeSlot(event) {
     var btn = event.target;
-    // document.getElementById("item2").previousSibling.textContent;
     var nineOclock = btn9.parentElement.previousSibling;
-    // document.getElementById("input").innerHTML = nineOclock;
-    localStorage.setItem("nineslot", nineOclock)
+    localStorage.setItem("nineslot", nineOclock.value)
 };
 
 //10
@@ -41,9 +39,7 @@ btn10.addEventListener("click", tenTimeSlot);
 
 function tenTimeSlot(event1) {
     var btn10 = event1.target;
-    // document.getElementById("item2").previousSibling.textContent;
     var tenOclock = btn10.parentElement.previousSibling; 
-    // document.getElementById("input").innerHTML = nineOclock;
     localStorage.setItem("tenslot", tenOclock)
 };
 
@@ -58,9 +54,7 @@ btn11.addEventListener("click", elevenTimeSlot);
 
 function elevenTimeSlot(event2) {
     var btn11 = event2.target;
-    // document.getElementById("item2").previousSibling.textContent;
     var elevenOclock = btn11.parentElement.previousSibling; 
-    // document.getElementById("input").innerHTML = nineOclock;
     localStorage.setItem("elevenslot", elevenOclock)
 };
 
@@ -75,9 +69,7 @@ btn12.addEventListener("click", twelveTimeSlot);
 
 function twelveTimeSlot(event3) {
     var btn12 = event3.target;
-    // document.getElementById("item2").previousSibling.textContent;
     var twelveOclock = btn12.parentElement.previousSibling; 
-    // document.getElementById("input").innerHTML = nineOclock;
     localStorage.setItem("twelveslot", twelveOclock)
 };
 
@@ -91,9 +83,7 @@ btn1.addEventListener("click", oneTimeSlot);
 
 function oneTimeSlot(event4) {
     var btn1 = event4.target;
-    // document.getElementById("item2").previousSibling.textContent;
     var oneOclock = btn1.parentElement.previousSibling; 
-    // document.getElementById("input").innerHTML = nineOclock;
     localStorage.setItem("oneslot", oneOclock)
 };
 
@@ -107,9 +97,7 @@ btn2.addEventListener("click", twoTimeSlot);
 
 function twoTimeSlot(event5) {
     var btn2 = event5.target;
-    // document.getElementById("item2").previousSibling.textContent;
     var twoOclock = btn2.parentElement.previousSibling; 
-    // document.getElementById("input").innerHTML = nineOclock;
     localStorage.setItem("twoslot", twoOclock)
 };
 
@@ -123,9 +111,7 @@ btn3.addEventListener("click", threeTimeSlot);
 
 function threeTimeSlot(event6) {
     var btn3 = event6.target;
-    // document.getElementById("item2").previousSibling.textContent;
     var threeOclock = btn3.parentElement.previousSibling; 
-    // document.getElementById("input").innerHTML = nineOclock;
     localStorage.setItem("threeslot", threeOclock)
 };
 
@@ -139,9 +125,7 @@ btn4.addEventListener("click", fourTimeSlot);
 
 function fourTimeSlot(event7) {
     var btn4 = event7.target;
-    // document.getElementById("item2").previousSibling.textContent;
     var fourOclock = btn4.parentElement.previousSibling; 
-    // document.getElementById("input").innerHTML = nineOclock;
     localStorage.setItem("fourslot", fourOclock)
 };
 
@@ -155,8 +139,27 @@ btn5.addEventListener("click", fiveTimeSlot);
 
 function fiveTimeSlot(event8) {
     var btn5 = event8.target;
-    // document.getElementById("item2").previousSibling.textContent;
     var fiveOclock = btn5.parentElement.previousSibling; 
-    // document.getElementById("input").innerHTML = nineOclock;
     localStorage.setItem("fiveslot", fiveOclock)
 };
+
+var time = moment().format("hh:mm:ss");
+$("#4a").text(time);
+
+var textarea9 = document.querySelector(".container9");
+var textarea10 = document.querySelector(".container10");
+var textarea11 = document.querySelector(".container11");
+var textarea12 = document.querySelector(".container12");
+var textarea1 = document.querySelector(".container1");
+var textarea2 = document.querySelector(".container2");
+var textarea3 = document.querySelector(".container3");
+var textarea4 = document.querySelector(".container5");
+
+// function time() {
+//     if (time < 9) {
+//         textarea1.style.color = ''
+//     }
+// }
+
+
+// .style.color = 'red'">
