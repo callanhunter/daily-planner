@@ -14,6 +14,6 @@
 
 # Languages Used
 
-###
+### HTML, CSS, JavaScript, and jQuery were used in this project
 
 # Link
