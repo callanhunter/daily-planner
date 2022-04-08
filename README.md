@@ -18,4 +18,4 @@
 
 ### HTML, CSS, JavaScript, and Moment.js were used in this project
 
-# Link
+# Link https://callanhunter.github.io/daily-planner/
