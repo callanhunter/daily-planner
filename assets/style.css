@@ -57,7 +57,7 @@ textarea{
   color: white;
 }
 
-.saveBtn {
+.saveBtn9 {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -65,7 +65,111 @@ textarea{
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn9 i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.saveBtn10 {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn10 i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.saveBtn11 {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn11 i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.saveBtn12 {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn12 i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.saveBtn1 {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn1 i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.saveBtn2 {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn2 i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.saveBtn3 {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn3 i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.saveBtn4 {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn4 i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.saveBtn5 {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn5 i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
