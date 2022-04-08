@@ -112,3 +112,51 @@ function twoTimeSlot(event5) {
     // document.getElementById("input").innerHTML = nineOclock;
     localStorage.setItem("twoslot", twoOclock)
 };
+
+//3
+var btn3 = document.querySelector(".saveBtn3");
+var threeOclock = document.querySelector("input3");
+
+document.getElementById("input3").innerHTML = localStorage.getItem("threeslot")
+
+btn3.addEventListener("click", threeTimeSlot);
+
+function threeTimeSlot(event6) {
+    var btn3 = event6.target;
+    // document.getElementById("item2").previousSibling.textContent;
+    var threeOclock = btn3.parentElement.previousSibling; 
+    // document.getElementById("input").innerHTML = nineOclock;
+    localStorage.setItem("threeslot", threeOclock)
+};
+
+//4
+var btn4 = document.querySelector(".saveBtn4");
+var fourOclock = document.querySelector("input4");
+
+document.getElementById("input4").innerHTML = localStorage.getItem("fourslot")
+
+btn4.addEventListener("click", fourTimeSlot);
+
+function fourTimeSlot(event7) {
+    var btn4 = event7.target;
+    // document.getElementById("item2").previousSibling.textContent;
+    var fourOclock = btn4.parentElement.previousSibling; 
+    // document.getElementById("input").innerHTML = nineOclock;
+    localStorage.setItem("fourslot", fourOclock)
+};
+
+//5
+var btn5 = document.querySelector(".saveBtn5");
+var fiveOclock = document.querySelector("input5");
+
+document.getElementById("input5").innerHTML = localStorage.getItem("fiveslot")
+
+btn5.addEventListener("click", fiveTimeSlot);
+
+function fiveTimeSlot(event8) {
+    var btn5 = event8.target;
+    // document.getElementById("item2").previousSibling.textContent;
+    var fiveOclock = btn5.parentElement.previousSibling; 
+    // document.getElementById("input").innerHTML = nineOclock;
+    localStorage.setItem("fiveslot", fiveOclock)
+};
